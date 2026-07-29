@@ -1,7 +1,7 @@
 # 63S8-Hexadecimal-Keypad
 63S8 Hexadecimal Keypad Is a 6x3 serial/parallel Keypad with Cherry MX style switches, and interfaces for 8-bit computers using only 7400 logic chips.
 <p align="center">
-  <img src="https://github.com/Rumidom/53S8-Hexadecimal-Keypad/blob/main/PCB%20Layout%202026-07-23.png" />
+  <img src="https://github.com/Rumidom/53S8-Hexadecimal-Keypad/blob/main/PCB%20Layout%202026-07-29.png" />
 </p>
 
 ## Features:
