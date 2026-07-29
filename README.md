@@ -1,3 +1,5 @@
+# This circuit hasn't been tested yet.
+
 # 63S8-Hexadecimal-Keypad
 63S8 Hexadecimal Keypad Is a 6x3 serial/parallel Keypad with Cherry MX style switches, and interfaces for 8-bit computers using only 7400 logic chips.
 <p align="center">
@@ -29,8 +31,6 @@
   (boundrate can be set using a jumper)  
   (boundrate Clock pin is also available on UART port)  
   (serial uses no parity, 8 data bits, 1 stop bit ```HIGH```, 1 init bit ```LOW```)  
-
-### This circuit hasn't been tested yet.
 
 ## TODO:
 - [X] Add a reset button to reset the keypad in parallel/manual mode
