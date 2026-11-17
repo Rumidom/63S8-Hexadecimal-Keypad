@@ -22,10 +22,10 @@
 ## Reading the keypad:
 - The register can be read via the parallel port by:  
   1 - Reading the 8 parallel bits when the pin ```BYTE_RDY``` is ```HIGH```  
-  2 - Then reseting the register by setting ```KEYPAD_RST``` to ```HIGH```  
-
+  2 - Then resetting the register by setting ```KEYPAD_RST``` to ```HIGH```, or pushing the reset button.
+  
 - The register can be read on the serial ports via RS232 or UART by:  
-  1 - Setting ```#SERIAL_EN``` ```LOW```.   
+  1 - Setting  ```#SERIAL_EN(CTS)``` ```LOW``` on the UART port, or ```CTS``` ```HIGH``` on the RS232 port.
   2 - Reading the Serial output.
     
   (boundrate can be set using a jumper)  
